@@ -1,0 +1,77 @@
+{
+  "@@locale": "en",
+
+  "home": "Home",
+  "sections": "Sections",
+  "courses": "Courses",
+  "evaluation": "Evaluation",
+  "profile": "profile",
+  "latestCourse": "Latest courses",
+  "language": "Language",
+  "welcome": "Welcome",
+  "region": "Region",
+  "university": "University",
+  "field": "Field",
+  "specialization": "Specialization",
+  "whichSpecialization": "What is your area of specialization ?",
+  "logOut":"Logout",
+  "editInfo":"Edit info",
+  "qualification": "Qualification",
+  "mainErrorMessage": "Cannot connect please check your internet connection and try Again!",
+  "graduateOrStudent": "Graduate Or Student ?",
+  "graduate": "Graduate",
+  "student": "student",
+  "hours": "Hours",
+  "files": "files",
+  "exams": "Exams",
+  "noCourseForYou": "No available Course for you !",
+  "bestProfessor": "Best Professors",
+  "coursePrice": "course price",
+  "currencyCode": "SAR",
+  "video": "video",
+  "courseIntro": "Course introduction",
+  "courseWillLearn": "What you will learn in this course?",
+  "subscribe": " Subscribe",
+  "search": "Search",
+  "introViedo": "demonstration video",
+  "dateOfJoiningCourse": "Date of joining the course",
+  "courseProgressRate": "Course progress rate",
+  "lesson": "Lesson",
+  "examNumber": "Exam number",
+  "correctAnswer":"Correct answer",
+  "wrongAnswer":"Wrong answer",
+  "totalQuestions": "Questions",
+
+
+
+
+
+
+
+
+
+  "save": "Save",
+  "cancel": "Cancel",
+  "passMustBe": "The password must be at least 8 characters and contain at least one special character and one number.",
+  "numberMustBe": "The number must not contain any letters and must be at least 8 digits long.",
+  "nameMustBe": "The name must be at least 3 characters without any number or space.",
+  "emailMustBe": "The email must be in the following format: example@g.com",
+  "invalid": "Invalid",
+  "chooseLanguage": "Choose Language",
+  "errorGetData": "Error Cannot get data!",
+  "signUp": "Sign up",
+  "enterEmptyFilled":"please enter the empty field",
+  "gatWayError": "Can't get the payment gateway please try again!",
+  "viewAll": "View all",
+  "continuee": "continue",
+  "details": "Details"
+}
+
+
+
+
+
+
+
+
+
