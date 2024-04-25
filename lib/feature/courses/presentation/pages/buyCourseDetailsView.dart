@@ -234,14 +234,14 @@ class BuyCourseDetailsView extends StatelessWidget {
                         height: 16,
                       ),
 
-                      course.userLearn != null &&
-                              course.userLearn!['ar']!.isNotEmpty
-                          ? WhatWillLearnContainer(
-                              appLocalizations: appLocalizations,
-                              learnList: language == "ar"
-                                  ? course.userLearn!["ar"]!
-                                  : course.userLearn!["en"]!)
-                          : const SizedBox(),
+                      // course.userLearn != null &&
+                      //         course.userLearn!['ar']!.isNotEmpty
+                      //     ? WhatWillLearnContainer(
+                      //         appLocalizations: appLocalizations,
+                      //         learnList: language == "ar"
+                      //             ? course.userLearn!["ar"]!
+                      //             : course.userLearn!["en"]!):
+                                  const SizedBox(),
                       const SizedBox(
                         height: 16,
                       ),

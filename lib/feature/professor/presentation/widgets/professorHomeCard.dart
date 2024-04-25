@@ -59,9 +59,13 @@ class ProfessorHomeCard extends StatelessWidget {
             Text(professor.name ?? "",
               style: TextStyles.font13TxtDark600,
             ),
-            Text(professor.about?.replaceAll(RegExp(r'<[^>]*>'), '') ?? "",
-              style: TextStyles.font10Grey600,
+            Container(
+              width: 110,
+              child: Text(professor.about?.replaceAll(RegExp(r'<[^>]*>'), '') ?? "",
+                style: TextStyles.font10Grey600,
+                overflow: TextOverflow.ellipsis,
 
+              ),
             ),
           ],
         ),

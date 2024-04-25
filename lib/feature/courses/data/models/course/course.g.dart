@@ -12,10 +12,7 @@ Course _$CourseFromJson(Map<String, dynamic> json) => Course(
       stats: json['stats'] as Map<String, dynamic>?,
       free: json['free'] as int?,
       coursePrice: json['course_price'] as String?,
-      userLearn: (json['user_learn'] as Map<String, dynamic>?)?.map(
-        (k, e) => MapEntry(
-            k, (e as List<dynamic>?)?.map((e) => e as String).toList()),
-      ),
+      userLearn: json['user_learn'] as Map<String, dynamic>?,
       courseDuration: (json['course_duration'] as num?)?.toDouble(),
       courseLanguage: json['course_language'] as String?,
       media: (json['media'] as List<dynamic>)

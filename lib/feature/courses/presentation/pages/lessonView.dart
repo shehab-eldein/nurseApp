@@ -42,7 +42,7 @@ class LessonView extends StatelessWidget {
           children: [
             Container(
               width: double.infinity,
-              height: 100,
+              height: 70,
 
               padding: EdgeInsets.symmetric(horizontal: layoutHandler.mainHorizontalPadding()),
               decoration: BoxDecoration(
@@ -135,7 +135,7 @@ class LessonView extends StatelessWidget {
                   HtmlWidget(
                       "${lesson.course_description?["ar"] != null
                           ? lesson.course_description!["ar"]
-                          : "" }"
+                          : "Empty HTML" }"
 
 
                   ),

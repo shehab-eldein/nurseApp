@@ -24,7 +24,7 @@ class Course {
    @JsonKey(name: 'course_requirments')
    Map<String, String?>? courseRequirments;
    @JsonKey(name: 'user_learn')
-   Map<String, List<String>?>? userLearn;
+   Map<String, dynamic>? userLearn;
   @JsonKey(name: 'course_duration')
   double? courseDuration;
   @JsonKey(name: 'course_language')

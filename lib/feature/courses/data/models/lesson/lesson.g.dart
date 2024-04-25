@@ -11,9 +11,7 @@ Lesson _$LessonFromJson(Map<String, dynamic> json) => Lesson(
       name: (json['name'] as Map<String, dynamic>?)?.map(
         (k, e) => MapEntry(k, e as String),
       ),
-      description: (json['description'] as Map<String, dynamic>?)?.map(
-        (k, e) => MapEntry(k, e as String),
-      ),
+      description: json['description'] as Map<String, dynamic>?,
       lessonDuration: json['lessonDuration'] as num?,
       courseSummary: (json['courseSummary'] as Map<String, dynamic>?)?.map(
         (k, e) => MapEntry(k, e as String?),

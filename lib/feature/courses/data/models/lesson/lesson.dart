@@ -11,7 +11,7 @@ part 'lesson.g.dart';
 class Lesson {
   int id;
   Map<String, String>? name;
-  Map<String, String>? description;
+  Map<String, dynamic>? description;
   num? lessonDuration;
   Map<String, String?>? courseSummary;
   Map<String, String?>? course_description;
